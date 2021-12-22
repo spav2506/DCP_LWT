@@ -6,24 +6,6 @@ disp('Starting EvalScores')
 
 SetEnvConst
 METHODS = {
-%     'MVE+SRN'
-%     'OBDL-MRF'
-%     'PMES'
-%     'MAM'
-%     'PIM-ZEN'
-%     'PIM-MCS'
-%     'MCSDM'
-%     'APPROX'
-%     'AWS'
-%     'GBVS'
-%     'GAUSS'
-%     'IO'
-%     'DWT'
-%     'LDP'
-% 'Addition'
-% 'Multiplication'
-% 'Krondelta'
-'PROPOSED8x8'
 'PROPOSED4x4'
     };
 methodIndexes = 1:numel(METHODS);
