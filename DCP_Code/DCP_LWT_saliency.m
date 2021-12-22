@@ -1,4 +1,4 @@
-function [Saliency]= DCP_SRN_saliency(frameType,dct, mv_x, mv_y)
+function [Saliency]= DCP_LWT_saliency(frameType,dct, mv_x, mv_y)
 
 
 %% Intialization
