@@ -5,23 +5,7 @@ clear all
 SetEnvConst
 
 METHODS = {
-% %     'PMES'
-% %     'MAM'
-%     'PIM-ZEN'
-%     'PIM-MCS'
-% %     'MCSDM'
-% %     'APPROX'
-%     'OBDL-MRF'
-%     'MVE-SRN'
-% %     'AWS'
-%     'MVE-OBDL'
-%     'SRDCN-OBDL'
-% %     'GBVS'
-% %     'Humansaliency'
-%     'PROPOSED(LDP)'
-%     'PROPOSED(DCP)'
-'PROPOSED'
-%     'IO'
+'PROPOSED4x4'
     };
 METHODS_NUM = numel(METHODS);
 
