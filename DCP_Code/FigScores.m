@@ -4,30 +4,7 @@ clc
 SetEnvConst
 
 METHODS = {
-%     'PMES'
-%     'MAM'
-%     'PIM-ZEN'
-%     'PIM-MCS'
-% %     'MCSDM'
-% %     'APPROX'
-%     'OBDL-MRF'
-%     'MVE-SRN'
-% %     'AWS'
-%     'MVE-OBDL'
-%     'SRDCN-OBDL'
-% %     'GBVS'
-% %     'IO'
-% %     'GAUSS'
-% %     'PROPOSED(DCP)'
-    'PROPOSED8x8'
     'PROPOSED4x4'
-%     'DWT'
-%     'LDP'
-% 'Addition'
-% 'Multiplication'
-% 'Krondelta'
-%     'LWTRN-MRF'
-%     'DCP'
     };
 METHODS_NUM = numel(METHODS);
 
